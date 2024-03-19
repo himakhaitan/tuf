@@ -2,14 +2,12 @@
 const express = require("express");
 const cors = require('cors');
 const bodyParser = require("body-parser");
-const logging = require("./middlewares/logging");
 
 // Creating Express App
 const app = express();
 
 // Middlewares
 app.use(express.json()); // Json Data and populating it to req.body
-app.use(logging);
 app.use(cors())
 
 // PARSE application/x-www-form-urlencoded (Form Data)
