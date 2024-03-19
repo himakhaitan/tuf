@@ -40,7 +40,7 @@ function App() {
     console.log(data);
     try {
       const response = await axios.post(
-        `http://localhost:8000/submissions/new`,
+        `https://tuf-adil.onrender.com/submissions/new`,
         data
       );
       alert("Code Submitted!")

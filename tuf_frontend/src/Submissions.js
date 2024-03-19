@@ -26,7 +26,7 @@ const Submissions = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:8000/submissions/all"
+          "https://tuf-adil.onrender.com/submissions/all"
         );
         setSubmissions(response.data.data);
       } catch (error) {
