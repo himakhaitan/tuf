@@ -1,0 +1,44 @@
+.submissions {
+    padding: 0 4rem;
+    margin: 2rem 0;
+}
+.submissions > h3 {
+    text-align: center;
+    padding: 1rem 1.5rem;
+    background-color: var(--tertiary-color);
+    border-radius: 0.3rem;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.record {
+    border: 1px solid var(--accent-color);
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    padding: 3rem 2rem;
+}
+
+.record_main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.record_text {
+    font-size: 1.5rem;
+}
+
+.record_code {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    height: 10rem;
+}
+
+.record_code > textarea {
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: white;
+    background-color: var(--text-color);
+    border-radius: 0.3rem;
+}

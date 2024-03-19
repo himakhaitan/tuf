@@ -1,0 +1,6 @@
+.stdin {
+    border: 1px solid var(--text-color);
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.4rem;
+}

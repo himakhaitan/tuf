@@ -1,0 +1,11 @@
+.logo {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  align-items: center;
+  grid-gap: 1rem;
+}
+
+.logo_img {
+    height: 4rem;
+    width: 4rem;
+}

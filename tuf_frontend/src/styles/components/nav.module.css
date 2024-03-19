@@ -1,0 +1,26 @@
+.navigation {
+  padding: 0rem 5vw !important;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.04) 0 10px 15px;
+}
+.navItems {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-gap: 1rem;
+}
+
+.navInput {
+  border: 2px solid #000000 !important;
+  border-radius: 5px;
+  max-width: 20rem;
+  padding: 0rem 1.8rem;
+  line-height: 1.75;
+  font-size: 1.4rem;
+  box-shadow: 3px 3px 0px 0px #cc3833;
+}
+.navInput:focus-visible {
+  border: 2px solid #000000 !important;
+}
